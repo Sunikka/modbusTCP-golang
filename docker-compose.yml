@@ -1,0 +1,8 @@
+version: '3'
+services:
+  modbus-server:
+    image: modbus_server
+    ports:
+      - "502:502"
+    volumes:
+      - ./bin:/app
